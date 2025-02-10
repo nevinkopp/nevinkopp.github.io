@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of California, Riverside</a>. M.S Robotics, B.S Electrical Engineering
+subtitle: <a href='https://robotics.ucr.edu/'>University of California, Riverside</a>. M.S Robotics, B.S Electrical Engineering
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📍Saint Clair, MI 48079</p>
+    <p><i style='font-size:24px' class='fas'>&#xf3c5;</i>Saint Clair, MI 48079</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
