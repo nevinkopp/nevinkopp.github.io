@@ -499,14 +499,14 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/nevinkopp", "_blank");
+          window.open("https://github.com/https://github.com/nevinkopp", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https//www.linkedin.com/in/nevin-kopp-591723307", "_blank");
+          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/nevin-kopp/", "_blank");
         },
       },{
       id: 'light-theme',
