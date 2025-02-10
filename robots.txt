@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://nevinkopp.github.io/al-folio/sitemap.xml
+User-agent: * Disallow: Sitemap: https://nevinkopp.github.io./sitemap.xml
