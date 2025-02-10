@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>nevinkopp@exobionics.io</p>
