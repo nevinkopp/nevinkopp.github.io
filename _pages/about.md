@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>University of California, Riverside</a>. M.S Robotics, B.S Electrical Engineering
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>nevinkopp@exobionics.io</p>
-    <p>(657)271-3878</p>
-    <p>Saint Clair, MI 48079</p>
+    <p>📍Saint Clair, MI 48079</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
