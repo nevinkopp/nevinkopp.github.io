@@ -495,6 +495,13 @@ ninja.data = [{
           window.open("mailto:%6E%65%76%69%6E%6B%6F%70%70@%65%78%6F%62%69%6F%6E%69%63%73.%69%6F", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/nevinkopp", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
