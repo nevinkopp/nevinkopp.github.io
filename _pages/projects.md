@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects listed under "work" were completed as an interdisciplinary team under direct supervision from a project lead. Work projects include meetings, briefings, setting goals, completing assignments and the like. Projects listed under "fun" were either completed as part of a course at the university, or just in my own free time. 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
