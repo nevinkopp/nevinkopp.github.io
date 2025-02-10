@@ -499,7 +499,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Nevin Kopp", "_blank");
+          window.open("https://www.linkedin.com/in/nevin-kopp", "_blank");
         },
       },{
       id: 'light-theme',
