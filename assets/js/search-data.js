@@ -388,7 +388,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-leviathan",
           title: 'Leviathan',
-          description: "SAMPLE TEXT",
+          description: "Autonomous underwater vehicle (AUV)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
