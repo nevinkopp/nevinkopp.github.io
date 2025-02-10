@@ -25,4 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Why can't I add words here? 
+Hello! I’m Nevin Kopp, a recent graduate of the University of California, Riverside, with extensive experience in autonomous underwater vehicles (AUVs). My expertise includes machine vision, sensor integration, and autonomous navigation systems, honed through research projects and full-scale deployments. I aim to contribute to the future of underwater exploration and robotics by tackling complex challenges in the field.
+
+I am currently seeking professional opportunities while expanding my skills through innovative side projects, such as a web-controlled fireworks display combining IoT and UI design, and a robotic gripper hand for object retrieval, demonstrating my ability to integrate mechanical and software solutions.
+
+Outside of my technical work, I enjoy playing the guitar as a creative outlet. My passion for technology, commitment to learning, and hands-on experience make me a versatile and driven individual ready to excel in robotics, automation, and beyond. Thanks for reading!
