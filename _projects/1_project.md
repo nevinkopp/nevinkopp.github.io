@@ -23,7 +23,7 @@ Leviathan is an AUV designed from the ground up at UCR by multidisciplinary team
     </div>
 </div>
 <div class="caption">
-    On the left, the mechanical team works on assembley. Middle, water inflitration tests. Right, software team working on thruster board firmware.
+    On the left, the mechanical team works on assembley. Middle, water infiltration tests. Right, software team working on thruster board firmware.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,25 +34,23 @@ Leviathan is an AUV designed from the ground up at UCR by multidisciplinary team
     Leviathan systems diagram 
 </div>
 
-Working with both the electrical and the software teams gave me a unique perspective in which I gained a lot of experience in both the hardware and the software that went into Leviathan. With the electrical team, I would design the PCBs that went into the PCB housing as shown below. These boards were responsible for voltage conversion, electronic speed control (ESC), and battery management (BMS). I would also design and render 3D images of the PCBs (also shown below) so the team could see how the final PCB would look before money was spend on having them made. 
+Working with both the electrical and the software teams gave me a unique perspective in which I gained a lot of experience in both the hardware and the software that went into Leviathan. 
+
+Along with the electrical team, I would help design the PCBs that went into the PCB housing as shown below. These boards were responsible for voltage conversion between different components, electronic speed control (ESC) for the T100 thrusters, and battery management (BMS) for the power source. I would also help design and render 3D images of the PCBs (also shown below) so the team could see how the final PCB would look before money was spend on having them made.  
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="pcb housing" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/11.jpg" title="thruster pcb" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left, 3D render of the PCB housing. Right, 3D render of the thruster board (ESC). 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
+With the software team we used gazebo to create and simulate a digital version of Leviathan. This allowed us to write and test both our ROS (robot operating system) nodes and our finite state machines (FSMs) to make sure everything worked as intended before deployment on the real robot which uses a Jetson TX2 running ROS. The ROS nodes are responsible for things like thruster control, camera input, and the inertial measurement unit or IMU for use with dead reckoning. 
 {% raw %}
 
 ```html
