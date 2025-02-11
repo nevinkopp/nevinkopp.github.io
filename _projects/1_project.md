@@ -11,10 +11,10 @@ related_publications: false
 Leviathan is an AUV designed from the ground up at UCR by multidisciplinary teams who work all year long on the project. The goal of Leviathan is to compete in RoboSub, an international competition hosted by Robonation. Leviathan features five degrees of freedom and is designed for efficiency and stability while navigating the underwater environment without any human intervention.  
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/1.jpg" title="mech" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/3.jpg" title="tests" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -22,7 +22,7 @@ Leviathan is an AUV designed from the ground up at UCR by multidisciplinary team
     Left, Mechanical team works on assembly. Right, Water infiltration tests.. 
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="software team" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
