@@ -11,7 +11,7 @@ related_publications: true
 This research project implementation focuses on improving the performance of modern state of the art (SOTA) trackers for use in underwater autonomous vehicle (AUV) applications. Since many modern SOTA trackers were trained with open air (OA) datasets and are intended for use with aerial robotics, they tend to perform poorly when used in the underwater domain as shown below.  
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
