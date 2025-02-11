@@ -25,8 +25,8 @@ Leviathan is an AUV designed from the ground up at UCR by multidisciplinary team
 <div class="caption">
     On the left, the mechanical team works on assembley. Middle, water infiltration tests. Right, software team working on thruster board firmware.
 </div>
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/4.jpg" title="systems diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
