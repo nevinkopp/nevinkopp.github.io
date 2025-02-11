@@ -26,10 +26,10 @@ Ideally, researchers would have access to a massive dataset of underwater imager
 The first step in improving the performance of existing tracking models is to train them with a 70/30 split with the new underwater datasets. From there, we can further enhance the images to retrain and further improve performance. Below are the results of training existing models on the UVOT-400 underwater dataset.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/9.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/10.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
