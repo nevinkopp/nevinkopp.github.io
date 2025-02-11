@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Underwater object tracking (UOT)
+description: Graduate research project
+img: assets/img/7.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.
