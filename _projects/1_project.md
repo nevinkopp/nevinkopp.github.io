@@ -66,7 +66,7 @@ Future scope
 With AUVs, we are able to explore the underwater world in a way that is not only cheaper than manned explorations, but also much safer. With AUVs, we can create useful maps of the seafloor which can help commercial companies plan on where to build infrastructure with minimal impact on the environment. Additionally, AUVs can be equipped with all sorts of sensors and devices that can help scientists study lakes and oceans. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/12.jpg" title="leviathan" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
