@@ -10,20 +10,29 @@ related_publications: false
 
 Leviathan is an AUV designed from the ground up at UCR by multidisciplinary teams who work all year long on the project. The goal of Leviathan is to compete in RoboSub, an international competition hosted by Robonation. Leviathan features five degrees of freedom and is designed for efficiency and stability while navigating the underwater environment without any human intervention.  
 
-
-<div class="row">
-    <div class="col-sm mt-4 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="mech team" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-4 mt-md-0">
+</div>
+<div class="caption">
+     Mechanical team works on assembly.
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="testing..1..2..3" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-4 mt-md-0">
+</div>
+<div class="caption">
+     Water infiltration tests.
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="software team" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, the mechanical team works on assembly. Middle, water infiltration tests. Right, software team working on thruster board firmware.
+     Software team working on thruster board firmware.
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
