@@ -8,18 +8,18 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This research project implementation focuses on improving the performance of modern state of the art (SOTA) trackers for use in underwater autonomous vehicle (AUV) applications. Since many modern SOTA trackers were trained with open air (OA) datasets and are intended for use with aerial robotics, they tend to perform poorly when used in the underwater domain as shown below.  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Y axis represents the success rate (AUC-ROC) where 1 is perfect and anything equal to or less than 0.5 is a random guess, X axis represents a particular SOTA tracker. Each point on the graph represents the success rate of a particular SOTA tracker on three seperate datasets (TrackingNet, LaSOT, and UW-VOT400) where VOT400 contains underwater imagry. 
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+From the chart above, it is clear that the sampled SOTA trackers lost a lot of performance when applied to an underwater dataset. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
