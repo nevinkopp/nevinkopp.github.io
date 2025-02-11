@@ -19,14 +19,14 @@ This research project implementation focuses on improving the performance of mod
     Y-axis represents the success rate (AUC-ROC) where 1 is perfect and anything equal to or less than 0.5 is a random guess. X-axis represents a particular SOTA tracker. Each point on the graph represents the success rate of a particular SOTA tracker on three separate datasets (TrackingNet, LaSOT, and UW-VOT400), where VOT400 contains underwater imagery. 
 </div>
 
-From the chart above, it is clear that the sampled SOTA trackers lost a lot of performance when applied to an underwater dataset and weren't much better than a random guess. This is due to many factors, such as low light, poor visability, light scattering, absorption of light, target blurring, watercolor variations, camouflage, occlusion, and target visibility loss over increasing distances [1]. 
+From the chart above, it is clear that the sampled SOTA trackers lost a lot of performance when applied to an underwater dataset and some weren't much better than a random guess. This is due to many factors, such as low light, poor visability, light scattering, absorption of light, target blurring, watercolor variations, camouflage, occlusion, and target visibility loss over increasing distances [1]. 
 
 Ideally, researchers would have access to a massive dataset of underwater imagery in order to train new models. The lack of such a dataset has been one of the major problems with underwater object tracking (UOT) research. The papers involved in this research however, propose two new datasets for UOT research, the UVOT-400 and LSUI datasets. With these new datasets (among others) and image enhancement techniques, modern SOTA tracker performance can be improved which is the main inspiration behind this research project. 
 
-The first step in improving the performance of existing tracking models is to train them with a 70/30 split with the new underwater datasets. From there, we can further enhance the images to further improve performance. Below are the results of training existing models on the UVOT-400 underwater dataset.
+The first step in improving the performance of existing tracking models is to train them with a 70/30 split with the new underwater datasets. From there, we can further enhance the images to retrain and further improve performance. Below are the results of training existing models on the UVOT-400 underwater dataset.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/9.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
@@ -34,7 +34,7 @@ The first step in improving the performance of existing tracking models is to tr
     </div>
 </div>
 <div class="caption">
-    Left, performance tests with no training on UVOT-400. Right, performance tests after training on UVOT-400. 
+    Left, performance tests with no training on UVOT-400. Right, performance tests after training on UVOT-400 (only select models were trained). 
 </div>
 
 <div class="row">
