@@ -5,7 +5,7 @@ description: Graduate research project
 img: assets/img/7.jpg
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This research project implementation focuses on improving the performance of modern state of the art (SOTA) trackers for use in underwater autonomous vehicle (AUV) applications. Since many modern SOTA trackers were trained with open air (OA) datasets and are intended for use with aerial robotics, they tend to perform poorly when used in the underwater domain as shown below [1].   
@@ -87,3 +87,9 @@ Even though performance was increased with both training and image enhancement, 
 <div class="caption">
     Sample of various results from published image enhancement methods. Red boxes indicate hand picked pseudo groundtruth [2]
 </div>
+
+References
+
+[1] Alawode, B., Dharejo, F. A., Ummar, M., Guo, Y., Mahmood, A., Werghi, N., Khan, F. S., Matas, J., & Javed, S.        (2023). Improving underwater visual tracking with a large-scale dataset and image enhancement. arXiv preprint arXiv:2308.15816. https://arxiv.org/pdf/2308.15816
+
+[2] Peng, L., Zhu, C., & Bian, L. (2021). U-shape transformer for underwater image enhancement. arXiv preprint arXiv:2111.11843. https://arxiv.org/pdf/2111.11843
