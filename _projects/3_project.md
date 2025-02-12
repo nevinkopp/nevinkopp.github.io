@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bread Recipe Autonomous Device (BRAD)
-description: Automating a bread maker
+description: Automated bread maker 
 img: assets/img/18.jpg
 #redirect: https://unsplash.com
 importance: 3
