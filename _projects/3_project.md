@@ -80,3 +80,24 @@ Once the desired buttons are pressed, it is time to load in the ingredients. We 
     Hardware layout of the lid control system. 
 </div>
 
+Once the lid is fully open, we are now able to fire up the auger delivery system (shown below) to deliver all the dry ingredients. For the white bread, we pour in salt, flour, yeast and sugar. This is done by using several Nema 17 motors (one for each ingredient) and the auger bit. Spinning the auger moves the ingredient down towards the hole which leads into a funnel where the ingredient falls into the bread maker.  
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/24.jpg" title="auger" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hardware layout of the auger control system. 
+</div>
+
+One issue we had was that some of the ingredients would clump up and not move down the funnel. To address this issue, we used a "rumble" motor which is a motor that spins and unbalanced piece of metal. This creates vibration which helps to shake up the clumped up ingredients. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/28.jpg" title="rumble" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hardware layout of the rumble motor control. 
+</div>
