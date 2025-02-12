@@ -401,14 +401,14 @@ ninja.data = [{
           description: "Automated bread maker",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-project-4-wip",
+          title: 'project 4 (WIP)',
+          description: "WIP",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-project-wip",
+          title: 'project (WIP)',
+          description: "(WIP)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{
