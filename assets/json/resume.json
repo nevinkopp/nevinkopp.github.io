@@ -7,7 +7,7 @@
     "phone": "(657) 271-3878",
     "summary": "Dedicated and highly motivated Robotics Engineer with a Master's degree in Robotics, equipped with advanced technical expertise in automation, machine learning, and control systems. Passionate about applying cutting-edge research and innovative solutions to real-world industry challenges. Eager to contribute to the development of intelligent systems and robotics technologies that drive efficiency and innovation. Strong problem-solving skills, a collaborative mindset, and a commitment to continuous learning make me a valuable asset to any forward-thinking engineering team."
   },
-  "work (WIP, refer to pdf)": [
+  "work (WIP)": [
     {
       "name": "University of California, Riverside",
       "location": "Riverside, CA",
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "education (WIP, refer to pdf)": [
+  "education (WIP)": [
     {
       "institution": "University of California, Riverside",
       "location": "Riverside, CA",
@@ -66,16 +66,21 @@
       ]
     }
   ],
-  "references (WIP)": [
+  "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Roman Chomko",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Associate Professor of Teaching, Electrical & Computer Engineering Dept @ UCR"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Matt Vaezi",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Lecturer, Electrical & Computer Engineering Dept @ UCR"
+    },
+    {
+      "name": "Professor Tofigh Heidarzadeh",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lecturer, Electrical & Computer Engineering Dept @ UCR"
     }
   ],
   "projects": [
