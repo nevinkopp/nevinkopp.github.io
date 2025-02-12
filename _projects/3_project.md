@@ -39,12 +39,12 @@ The base of the ingredient container feeds into the auger housing where a Nema 1
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/23.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Overall software block diagram.
+    Overall software block diagram based on finite state machines (FSMs).
 </div>
 
 You can also put regular text between your rows of images.
