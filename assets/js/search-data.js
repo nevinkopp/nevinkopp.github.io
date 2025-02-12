@@ -398,7 +398,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-bread-recipe-autonomous-device-brad",
           title: 'Bread Recipe Autonomous Device (BRAD)',
-          description: "Automating a bread maker",
+          description: "Automated bread maker",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
