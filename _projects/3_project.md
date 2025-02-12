@@ -8,6 +8,15 @@ importance: 3
 category: work
 ---
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/30.jpg" title="team" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    BRAD team during the senior design demo. 
+</div>
+
 The Bread Recipe Autonomous Device (BRAD), is my undergraduate senior design project aimed at simplifying the bread making process by automating the dispensing, mixing, kneading, and baking stages. Our team’s motivation behind this project was to provide a more convenient and accessible way for consumers to make and enjoy fresh, healthy bread at home.
 
 BRAD is composed of various subsystems, such as the solid dispensing subsystem, the liquid dispensing subsystem, the bread machine interface, lid opening and closing mechanism, and the logic circuitry. The key features of BRAD include a remote connection to the device through a virtual private network that can be accessible through the internet, a bread pan with a durable non-stick coating for easy cleaning, and the ability to add new recipes and ingredients using simple, 3D printed containers. The actual bread machine itself is a standard off the shelf bread maker, this project simply automates the process of using it. 
@@ -91,7 +100,7 @@ Once the lid is fully open, we are now able to fire up the auger delivery system
     Hardware layout of the auger control system. 
 </div>
 
-One issue we had was that some of the ingredients would clump up and not move down the funnel. To address this issue, we used a "rumble" motor which is a motor that spins and unbalanced piece of metal. This creates vibration which helps to shake up the clumped up ingredients. 
+One issue we had was that some of the ingredients would clump up and not move down the funnel. To address this issue, we used a "rumble" motor which is a motor that spins an unbalanced piece of metal. This creates vibration which helps to shake up the clumped up ingredients. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -101,3 +110,16 @@ One issue we had was that some of the ingredients would clump up and not move do
 <div class="caption">
     Hardware layout of the rumble motor control. 
 </div>
+
+From here, the state machine starts up the fluid dispensing operations. For white bread, we need water and oil. The fluid dispense system (show below) is composed of a four relay module connected to two solenoids which pump the fluid into the bread maker. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/25.jpg" title="fluid" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hardware layout of the fluid dispense system. 
+</div>
+
+From here, we fire the lid control system back up to close the lid which then starts the mixing and baking process defined within the bread machine itself. The user can then enjoy their freshly made bread at home.  
