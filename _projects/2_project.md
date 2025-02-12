@@ -55,7 +55,7 @@ The feature extration head consists of a convolutional layer with 64 output chan
 The next step is to now train and run the SOTA tracker models on the newly enhanced dataset and see if the performance is increased further. These results are shown below. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/13.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
