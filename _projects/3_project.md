@@ -56,7 +56,8 @@ The base of the ingredient container feeds into the auger housing where a Nema 1
     Overall software block diagram based on finite state machines (FSMs).
 </div>
 
-Following the flow of the FSMs, BRAD waits for human input before starting the process. For our project, human input comes in the form of a web app as shown below. The user has the option to make either light or dark white bread in both small or large batches. In future revisions, more bread recipies can be easily added as BRAD is designed to be highly modular. Once a button is pressed, the process is started and can be cacelled at any time through the web app. 
+Following the flow of the FSMs, BRAD waits for human input before starting the process. For our project, human input comes in the form of a web app, as shown below. The user has the option to make either light or dark white bread in both small or large batches. In future revisions, more bread recipes can be easily added, as BRAD is designed to be highly modular. Once a button is pressed, the process is started and can be canceled at any time through the web app.
+ 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -89,7 +90,7 @@ Once the desired buttons are pressed, it is time to load in the ingredients. We 
     Hardware layout of the lid control system. 
 </div>
 
-Once the lid is fully open, we are now able to fire up the auger delivery system (shown below) to deliver all the dry ingredients. For the white bread, we pour in salt, flour, yeast and sugar. This is done by using several Nema 17 motors (one for each ingredient) and the auger bit. Spinning the auger moves the ingredient down towards the hole which leads into a funnel where the ingredient falls into the bread maker.  
+Once the lid is fully open, we are now able to fire up the auger delivery system (shown below) to deliver all the dry ingredients. For the white bread, we pour in salt, flour, yeast and sugar. This is done by using several Nema 17 motors (one for each ingredient) and the auger bits. Spinning the auger moves the ingredient down towards the hole which leads into a funnel where the ingredient falls into the bread maker.  
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -111,7 +112,7 @@ One issue we had was that some of the ingredients would clump up and not move do
     Hardware layout of the rumble motor control. 
 </div>
 
-From here, the state machine starts up the fluid dispensing operations. For white bread, we need water and oil. The fluid dispense system (show below) is composed of a four relay module connected to two solenoids which pump the fluid into the bread maker. 
+From here, the state machine starts up the fluid dispensing operations. For white bread, we need water and oil. The fluid dispense system (shown below) is composed of a four relay module connected to two solenoids which pump the fluid into the bread maker. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -122,4 +123,4 @@ From here, the state machine starts up the fluid dispensing operations. For whit
     Hardware layout of the fluid dispense system. 
 </div>
 
-From here, we fire the lid control system back up to close the lid which then starts the mixing and baking process defined within the bread machine itself. The user can then enjoy their freshly made bread at home.  
+From here, we fire the lid control system back up to close the lid, which then starts the mixing and baking process defined within the bread machine itself. The user can then enjoy their freshly made bread at home.  
