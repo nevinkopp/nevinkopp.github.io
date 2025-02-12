@@ -47,9 +47,16 @@ The base of the ingredient container feeds into the auger housing where a Nema 1
     Overall software block diagram based on finite state machines (FSMs).
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Following the flow of the FSMs, BRAD waits for human input before starting the process. For our project, human input comes in the form of a web app as shown below. The user has the option to make either light or dark white bread in both small or large batches. In future revisions, more bread recipies can be easily added as BRAD is designed to be highly modular. Once a button is pressed, the process is started and can be cacelled at any time through the web app. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/29.jpg" title="phone app" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Screenshots of the web app showing the currently available options for the user.
+</div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
