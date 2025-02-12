@@ -50,18 +50,6 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
   "interests": [
     {
       "name": "Physics",
@@ -90,6 +78,7 @@
   ],
   "projects": [
     {
+      "name": "Projects Page",
       "url": "https://nevinkopp.github.io/projects/"
     }
   ]
