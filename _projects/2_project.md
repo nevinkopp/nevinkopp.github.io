@@ -34,16 +34,16 @@ The first step in improving the performance of existing tracking models is to tr
     </div>
 </div>
 <div class="caption">
-    Left, performance tests with no training on UVOT-400. Right, performance tests after training on UVOT-400 (only select models were trained). 
+    Left: performance tests with no training on UVOT-400. Right: performance tests after training on UVOT-400 (only select models were trained). 
 </div>
 
-These results are promising and are better than the initial run, but further improvement is needed to make them comparable to open air (OA) datasets. One way to squeeze out even more performance would be to enhance the images and retrain the models on the enhanced images. There are many image enhancement approaches we could consider, but for this project, a underwater image enhancement algorithm for tracking (UWIE-TR) is proposed. 
+These results are promising and are better than the initial run, but further improvement is needed to make them comparable to open-air (OA) datasets. One way to squeeze out even more performance would be to enhance the images and retrain the models on the enhanced images. There are many image enhancement approaches we could consider, but for this project, an underwater image enhancement algorithm for tracking (UWIE-TR) is proposed. 
 
-This UWIE-TR algorithm is build on a transformer network and is composed of a feature extraction head, UW transformer-based enocder and an output image decoder as shown below [1]. 
+This UWIE-TR algorithm is built on a transformer network and is composed of a feature extraction head, a UW transformer-based encoder, and an output image decoder, as shown below [1].
 
-Why transformers? 
+Why transformers?
 
-Transformer based networks, as opposed to convolutional neural networks (CNNs), are more suitable for the underwater domain. This is due to the fact that CNNs have uniform convolution kernels which are not able to characterize inconsistent attenuation within different color channels which is common with underwater imagery [2]. Additionally, CNNs are more focused on local features and are ineffective for long dependent and global feature modeling [2]. 
+Transformer-based networks, as opposed to convolutional neural networks (CNNs), are more suitable for the underwater domain. This is due to the fact that CNNs have uniform convolution kernels that are not able to characterize inconsistent attenuation within different color channels, which is common with underwater imagery. Additionally, CNNs are more focused on local features and are ineffective for long-dependent and global feature modeling [2].
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
@@ -54,9 +54,9 @@ Transformer based networks, as opposed to convolutional neural networks (CNNs), 
     Underwater Image Enhancement for Tracking (UWIE-TR) algorithm. 
 </div>
 
-The feature extraction head consists of a convolutional layer with 64 output channels which is then fed into two ResNet blocks which each have two convolutional layers with 64 channels. From here, the transformer based encoder learns the underwater latent space from which the decoder generates the enhanced image [1]. 
+The feature extraction head consists of a convolutional layer with 64 output channels, which is then fed into two ResNet blocks that each have two convolutional layers with 64 channels. From here, the transformer-based encoder learns the underwater latent space from which the decoder generates the enhanced image [1].
 
-The next step is to now train and run the SOTA tracker models on the newly enhanced dataset and see if the performance is increased further. These results are shown below. 
+The next step is to now train and run the SOTA tracker models on the newly enhanced dataset and see if the performance is increased further. These results are shown below.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
@@ -64,14 +64,14 @@ The next step is to now train and run the SOTA tracker models on the newly enhan
     </div>
 </div>
 <div class="caption">
-    Select SOTA tracking models trained and tested on the newly enhanced UVOT-400 dataset. 
+    Select SOTA tracking models trained and tested on the newly enhanced UVOT-400 dataset.
 </div>
 
-From the graph above, we are able to see further performance improvements (about 5% in the best case as compared to the non enhanced images). 
+From the graph above, we are able to see further performance improvements (about 5% in the best case compared to the non-enhanced images). 
 
 Future work
 
-Even though performance was increased with both training and image enhancement, there is still about a 20% gap in performance when applying modern SOTA tracker models to underwater images vs open air images (in the best case). This indicates the need for underwater specific trackers in order to obtain more robust models which can be used in the real world. 
+Even though performance increased with both training and image enhancement, there is still about a 20% gap in performance when applying modern SOTA tracker models to underwater images vs open-air images (in the best case). This indicates the need for underwater-specific trackers in order to obtain more robust models that can be used in the real world.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,7 +85,7 @@ Even though performance was increased with both training and image enhancement, 
     </div>
 </div>
 <div class="caption">
-    Sample of various results from published image enhancement methods. Red boxes indicate hand picked pseudo groundtruth [2]
+    Sample of various results from published image enhancement methods. Red boxes indicate hand picked pseudo ground truth [2]
 </div>
 
 References
