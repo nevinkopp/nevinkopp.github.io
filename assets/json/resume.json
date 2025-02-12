@@ -1,26 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Nevin Kopp",
+    "label": "Robotics Engineer",
+    "image": "prof_pic.png",
+    "email": "nevinkopp@exobionics.io",
+    "phone": "(657) 271-3878",
+    "summary": "Dedicated and highly motivated Robotics Engineer with a Master's degree in Robotics, equipped with advanced technical expertise in automation, machine learning, and control systems. Passionate about applying cutting-edge research and innovative solutions to real-world industry challenges. Eager to contribute to the development of intelligent systems and robotics technologies that drive efficiency and innovation. Strong problem-solving skills, a collaborative mindset, and a commitment to continuous learning make me a valuable asset to any forward-thinking engineering team."
   },
   "work": [
     {
