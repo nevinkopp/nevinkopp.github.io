@@ -121,12 +121,14 @@
   ],
   "projects": [
     {
-      "name": "Projects Page",
-      "url": "https://nevinkopp.github.io/projects/"
+      "name": "Leviathan",
+      "area": "Autonomous underwater vehicle (AUV)",
+      "url": "https://nevinkopp.github.io/projects/1_project/"
     },
     {
-      "name": "Projects Page2",
-      "url": "https://nevinkopp.github.io/projects/"
+      "name": "Underwater object tracking (UOT)",
+      "area": "Graduate research project",
+      "url": "https://nevinkopp.github.io/projects/2_project/"
     },
     {
       "name": "Projects Page3",
