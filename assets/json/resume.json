@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "education (WIP)": [
+  "education": [
     {
       "institution": "University of California, Riverside",
       "location": "Riverside, CA",
@@ -31,6 +31,42 @@
       "studyType": "Master",
       "startDate": "2023",
       "endDate": "2024"
+    },
+    {
+      "institution": "University of California, Riverside",
+      "location": "Riverside, CA",
+      "url": "https://robotics.ucr.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2019",
+      "endDate": "2023"
+    },
+    {
+      "institution": "Norco Community College",
+      "location": "Norco, CA",
+      "url": "https://www.norcocollege.edu/",
+      "area": "Pre-Engineering",
+      "studyType": "Associate",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "institution": "Norco Community College",
+      "location": "Norco, CA",
+      "url": "https://www.norcocollege.edu/",
+      "area": "Physics",
+      "studyType": "Associate",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "institution": "College of the Redwoods",
+      "location": "Eureka, CA",
+      "url": "https://www.redwoods.edu/",
+      "area": "Mathematics",
+      "studyType": "Associate",
+      "startDate": "2012",
+      "endDate": "2017"
     }
   ],
   "skills": [
