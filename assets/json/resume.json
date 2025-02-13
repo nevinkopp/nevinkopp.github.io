@@ -122,21 +122,24 @@
   "projects": [
     {
       "name": "Leviathan",
-      "area": "Autonomous underwater vehicle (AUV)",
+      "summary": "Autonomous underwater vehicle (AUV)",
+      "startDate": "2020",
+      "endDate": "2023",
       "url": "https://nevinkopp.github.io/projects/1_project/"
     },
     {
       "name": "Underwater object tracking (UOT)",
-      "area": "Graduate research project",
+      "summary": "Graduate research project",
+      "startDate": "2023",
+      "endDate": "2024",
       "url": "https://nevinkopp.github.io/projects/2_project/"
     },
     {
-      "name": "Projects Page3",
-      "url": "https://nevinkopp.github.io/projects/"
-    },
-    {
-      "name": "Projects Page4",
-      "url": "https://nevinkopp.github.io/projects/"
+      "name": "Bread Recipe Autonomous Device (BRAD)",
+      "summary": "Automated bread maker",
+      "startDate": "2023",
+      "endDate": "2023",
+      "url": "https://nevinkopp.github.io/projects/3_project/"
     }
   ]
 }
