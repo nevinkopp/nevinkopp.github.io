@@ -1,80 +1,65 @@
 ---
 layout: page
-title: project 4 (WIP)
-description: WIP
+title: Autonomous mini tank
+description: Seek and mildly annoy 
 img:
-importance: 3
+importance: 1
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/35.jpg" title="tank" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The completed mini tank... I beg your pardon, but what do you mean naked? 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This was my final project for my Robotics Fabrication course at UCR. It was completed in a team of three, and I was mainly responsible for the turret system. The objective of this project was to fabricate a fully working robotic system from the ground up. We only had a few weeks to do it, which is why it looks so... prototypy? But it does complete its objective! The objective was to find red solo cups and shoot them with a foam ball. The choice of red cup was purely happenstance and could've been anything, but we wanted something cheap and easy to hit. 
+
+The mini tank is assembled out of two main parts, the base and the turret. The base (as shown below) is responsible for moving the robot around. The frame itself was completely rendered in SolidWorks and laser cut in the UCR machine shop. We decided to go with tank treads since that was what came with the motor kit and, since it was a self-funded project, we couldn't spare much more expense.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/33.jpg" title="base" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Mini tank base (the part that makes it go). 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The motors (four in total) are controlled with an Arduino motor shield. Similarly, the turret (shown below) was also completely rendered in SolidWorks and laser cut. For the actual shooty part, I bought a cheap toy gun from Target and ripped out the important bits, which was the flywheel assembly.
 
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/34.jpg" title="turret" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Mini tank turret (do NOT wear red around this thing). 
+</div>
 
-{% endraw %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/37.jpg" title="turret" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Mini tank turret functionality. 
+</div>
+
+The flywheels work by being spun really fast by two DC motors (one each). Once the motors are up to speed, a linear actuator will push a small foam ball into the spinning wheels where it will get launched out of the barrel. From here, the remaining foam balls are suspended inside the top tube, which acts like a magazine. Once the linear actuator retracts far enough, another ball is loaded and the process repeats itself. We found that by playing around with the linear actuator, we can have burst fire, semi-auto, and fully auto modes.
+
+Target acquisition was done using an off-the-shelf PixyCam. It was trained on the color red since that is the color red solo cups are but also a fairly rare color for a classroom to be (such as where we had to demo the robot, we didn't want it to shoot things it shouldn't). Once the PixyCam detects a target, the servo motor controlling the yaw of the turret will aim the barrel at it and start up the flywheels, which will then fire the foam ball at it.
+
+Overall, this was a very fun project and I learned a lot! The most memorable moment for me was when my partner and I were working on it late at night and we started to smell something burning. We looked over and started seeing white smoke coming from the battery pack. My partner quickly unplugged it, and I thought to myself, we are done, the project is dead. Luckily, he just wired the battery pack in wrong and created a short circuit! Aside from some melted plastic, the tank ended up working just fine.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/36.jpg" title="simple times" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    linear actuator testing/troubleshooting/work darn it! 
+</div>
