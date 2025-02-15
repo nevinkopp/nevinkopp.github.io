@@ -401,9 +401,9 @@ ninja.data = [{
           description: "Automated bread maker",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4-wip",
-          title: 'project 4 (WIP)',
-          description: "WIP",
+            },},{id: "projects-autonomous-mini-tank",
+          title: 'Autonomous mini tank',
+          description: "Seek and mildly annoy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-wip",
