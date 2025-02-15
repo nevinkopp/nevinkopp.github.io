@@ -2,20 +2,11 @@
 layout: page
 title: Bread Recipe Autonomous Device (BRAD)
 description: Automated bread maker 
-img: assets/img/18.jpg
+img: assets/img/30.jpg
 #redirect: https://unsplash.com
 importance: 3
 category: work
 ---
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/30.jpg" title="team" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    BRAD team during the senior design demo. 
-</div>
 
 The Bread Recipe Autonomous Device (BRAD), is my undergraduate senior design project aimed at simplifying the bread making process by automating the dispensing, mixing, kneading, and baking stages. Our team’s motivation behind this project was to provide a more convenient and accessible way for consumers to make and enjoy fresh, healthy bread at home.
 
