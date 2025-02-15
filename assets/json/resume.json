@@ -28,7 +28,7 @@
       "location": "Riverside, CA",
       "url": "https://robotics.ucr.edu/",
       "area": "Robotics",
-      "studyType": "Master",
+      "studyType": "Master's",
       "startDate": "2023",
       "endDate": "2024"
     },
@@ -37,7 +37,7 @@
       "location": "Riverside, CA",
       "url": "https://robotics.ucr.edu/",
       "area": "Electrical Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's",
       "startDate": "2019",
       "endDate": "2023"
     },
@@ -46,7 +46,7 @@
       "location": "Norco, CA",
       "url": "https://www.norcocollege.edu/",
       "area": "Pre-Engineering",
-      "studyType": "Associate",
+      "studyType": "Associate's",
       "startDate": "2017",
       "endDate": "2019"
     },
@@ -55,7 +55,7 @@
       "location": "Norco, CA",
       "url": "https://www.norcocollege.edu/",
       "area": "Physics",
-      "studyType": "Associate",
+      "studyType": "Associate's",
       "startDate": "2017",
       "endDate": "2019"
     },
@@ -64,7 +64,7 @@
       "location": "Eureka, CA",
       "url": "https://www.redwoods.edu/",
       "area": "Mathematics",
-      "studyType": "Associate",
+      "studyType": "Associate's",
       "startDate": "2012",
       "endDate": "2017"
     }
