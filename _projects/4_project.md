@@ -8,7 +8,7 @@ category: fun
 ---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/35.jpg" title="tank" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -21,7 +21,7 @@ This was my final project for my Robotics Fabrication course at UCR. It was comp
 The mini tank is assembled out of two main parts, the base and the turret. The base (as shown below) is responsible for moving the robot around. The frame itself was completely rendered in SolidWorks and laser cut in the UCR machine shop. We decided to go with tank treads since that was what came with the motor kit and, since it was a self-funded project, we couldn't spare much more expense.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/33.jpg" title="base" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -32,7 +32,7 @@ The mini tank is assembled out of two main parts, the base and the turret. The b
 The motors (four in total) are controlled with an Arduino motor shield. Similarly, the turret (shown below) was also completely rendered in SolidWorks and laser cut. For the actual shooty part, I bought a cheap toy gun from Target and ripped out the important bits, which was the flywheel assembly.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/34.jpg" title="turret" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -56,7 +56,7 @@ Target acquisition was done using an off-the-shelf PixyCam. It was trained on th
 Overall, this was a very fun project and I learned a lot! The most memorable moment for me was when my partner and I were working on it late at night and we started to smell something burning. We looked over and started seeing white smoke coming from the battery pack. My partner quickly unplugged it, and I thought to myself, we are done, the project is dead. Luckily, he just wired the battery pack in wrong and created a short circuit! Aside from some melted plastic, the tank ended up working just fine.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/36.jpg" title="simple times" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
