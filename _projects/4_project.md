@@ -2,7 +2,7 @@
 layout: page
 title: Autonomous mini tank
 description: Seek and mildly annoy 
-img:
+img: assets/img/31.jpg
 importance: 1
 category: fun
 ---
