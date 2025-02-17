@@ -119,6 +119,7 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Automatic Control",
+        "Linear Control",
         "Artificial Intelligence",
         "Robot Operating System",
         "Perception",
@@ -132,6 +133,7 @@
         "Machine Learning",
         "LTSPice",
         "Arduino",
+        "Embedded Systems",
         "AVR",
         "C++",
         "Python",
@@ -140,7 +142,7 @@
         "PCB Design",
         "Altium",
         "Solidworks",
-        "Machine Vision",
+        "Computer Vision",
         "3D Fabrication",
         "MS Office"
       ]
