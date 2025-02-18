@@ -3,7 +3,6 @@ layout: page
 title: Analytical Project
 description: Design and analysis of a robotic arm from the ground up
 img: assets/img/38.jpg
-cv_pdf: Resume 2025.pdf
 importance: 2
 category: fun
 ---
