@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Analytical Project
+title: Analytical project
 description: Design and analysis of a robotic arm from the ground up
 img: assets/img/38.jpg
 importance: 2
@@ -24,4 +24,4 @@ This was my graduate analytical project. We were tasked with designing and doing
     Various figures from the original paper, please refer to the pdf for the full analysis. 
 </div>
 
-[<p><i class="fa pdf" aria-hidden="true"></i></p>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
+[<i class="fa pdf" aria-hidden="true"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
