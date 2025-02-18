@@ -24,4 +24,4 @@ This was my graduate analytical project. We were tasked with designing and doing
     Various figures from the original paper, please refer to the pdf for the full analysis. 
 </div>
 
-[<i class="fa-solid fa-file-pdf"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
+[<i class="fa-solid fa-xl fa-file-pdf"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
