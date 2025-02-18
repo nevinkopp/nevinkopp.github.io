@@ -406,11 +406,6 @@ ninja.data = [{
           description: "Seek and mildly annoy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-wip",
-          title: 'project (WIP)',
-          description: "(WIP)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
