@@ -7,7 +7,9 @@ importance: 2
 category: fun
 ---
 
-This was my graduate analytical project. We were tasked with designing and doing a physical analysis of a four joint robotic arm. The configuration and application area was up to us, I decided to do a revolute-prismatic-prismatic-revolte or (RPPR) serial configuration for palletizing in industrial applications. Please refer to the original paper I did while at the university (pdf can be downloaded here). 
+[<i class="fa-solid fa-file-pdf fa-8x"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
+
+This was my graduate analytical project. We were tasked with designing and doing a physical analysis of a four joint robotic arm. The configuration and application area was up to us, I decided to do a revolute-prismatic-prismatic-revolte or (RPPR) serial configuration for palletizing in industrial applications. Please refer to the original paper I did while at the university (pdf can be downloaded at the top of the page). 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,4 +26,3 @@ This was my graduate analytical project. We were tasked with designing and doing
     Various figures from the original paper, please refer to the pdf for the full analysis. 
 </div>
 
-[<i class="fa-solid fa-file-pdf fa-8x"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
