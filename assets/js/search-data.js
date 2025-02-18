@@ -407,7 +407,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-analytical-project",
-          title: 'Analytical Project',
+          title: 'Analytical project',
           description: "Design and analysis of a robotic arm from the ground up",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
