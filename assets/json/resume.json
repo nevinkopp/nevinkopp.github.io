@@ -11,6 +11,19 @@
     {
       "name": "University of California, Riverside",
       "location": "Riverside, CA",
+      "position": "Graduate Researcher",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "This research project implementation focuses on improving the performance of modern state of the art (SOTA) trackers for use in underwater autonomous vehicle (AUV) applications. Since many modern SOTA trackers were trained with open air (OA) datasets and are intended for use with aerial robotics, they tend to perform poorly when used in the underwater domain",
+      "highlights": [
+        "Image Processing",
+        "PyTorch",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "University of California, Riverside",
+      "location": "Riverside, CA",
       "position": "Teacher Assistant",
       "startDate": "2023",
       "endDate": "2024",
@@ -20,6 +33,26 @@
         "Circuits",
         "Gradescope",
         "Canvas"
+      ]
+    },
+    {
+      "name": "University of California, Riverside",
+      "location": "Riverside, CA",
+      "position": "Leviathan (Electrical and Software Teams)",
+      "startDate": "2020",
+      "endDate": "2023",
+      "summary": "Leviathan is an AUV designed from the ground up at UCR by multidisciplinary teams who work all year long on the project. The goal of Leviathan is to compete in RoboSub, an international competition hosted by Robonation. Leviathan features five degrees of freedom and is designed for efficiency and stability while navigating the underwater environment without any human intervention.",
+      "highlights": [
+        "Simulation (Gazebo)",
+        "Robot Operating System (ROS)",
+        "Finite State Machines (FSM)",
+        "Linux",
+        "Embedded Systems",
+        "Secure Shell (SSH)",
+        "C++",
+        "Python",
+        "Battery Management System (BMS)",
+        "Electronic Speed Control (ESC)"
       ]
     },
     {
