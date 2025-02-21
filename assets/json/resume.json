@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Nevin Kopp",
-    "label": "Robotics Engineer",
+    "label": "Roboticist",
     "image": "prof_pic.png",
     "email": "nevinkopp@exobionics.io",
     "phone": "(657) 271-3878",
-    "summary": "Dedicated and highly motivated Robotics Engineer with a Master's degree in Robotics, equipped with advanced technical expertise in automation, machine learning, and control systems. Passionate about applying cutting-edge research and innovative solutions to real-world industry challenges. Eager to contribute to the development of intelligent systems and robotics technologies that drive efficiency and innovation. Strong problem-solving skills, a collaborative mindset, and a commitment to continuous learning make me a valuable asset to any forward-thinking engineering team."
+    "summary": "Dedicated and highly motivated Roboticist with a Master's degree in Robotics, equipped with advanced technical expertise in automation, machine learning, and control systems. Passionate about applying cutting-edge research and innovative solutions to real-world industry challenges. Eager to contribute to the development of intelligent systems and robotics technologies that drive efficiency and innovation. Strong problem-solving skills, a collaborative mindset, and a commitment to continuous learning make me a valuable asset to any forward-thinking engineering team."
   },
   "work": [
     {
@@ -186,6 +186,20 @@
       "startDate": "2023",
       "endDate": "2023",
       "url": "https://nevinkopp.github.io/projects/3_project/"
+    },
+    {
+      "name": "Autonomous mini tank",
+      "summary": "Seek and mildly annoy",
+      "startDate": "2024",
+      "endDate": "2024",
+      "url": "https://nevinkopp.github.io/projects/4_project/"
+    },
+    {
+      "name": "Analytical project",
+      "summary": "Design and analysis of a robotic arm from the ground up",
+      "startDate": "2024",
+      "endDate": "2024",
+      "url": "https://nevinkopp.github.io/projects/6_project/"
     }
   ]
 }
