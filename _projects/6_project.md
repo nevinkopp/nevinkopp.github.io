@@ -7,7 +7,7 @@ importance: 2
 category: fun
 ---
 
-[<i class="fa-solid fa-file-pdf fa-2x"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
+[<i class="fa-solid fa-file-pdf fa-3x"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)
 
 This was my graduate analytical project. We were tasked with designing and conducting a physical analysis of a four-joint robotic arm. The configuration and application area were up to us. I decided to do a revolute-prismatic-prismatic-revolute (RPPR) serial configuration for palletizing in industrial applications. Please refer to the original paper I did while at the university (the PDF can be downloaded at the top of the page). 
 
