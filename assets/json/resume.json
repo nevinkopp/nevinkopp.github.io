@@ -198,7 +198,7 @@
       "reference": "Lecturer, Electrical & Computer Engineering Dept @ UCR"
     }
   ],
-  "projects": [
+  "#projects": [
     {
       "name": "Underwater object tracking (UOT)",
       "summary": "Graduate research project",
