@@ -15,9 +15,26 @@ This was one of my final robotics projects during a graduate level course. Our t
     </div>
 </div>
 <div class="caption">
-    Mobile robot platform used to complete the navigation
+    Mobile robot platform used to complete the navigation task
 </div>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/43.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An example of the types of obstacles used
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/45.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Class getting their robots ready to attempt the course
+</div>
 
 
 
