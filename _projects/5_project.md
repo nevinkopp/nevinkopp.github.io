@@ -24,7 +24,7 @@ This was one of my final robotics projects during a graduate level course. Our t
     </div>
 </div>
 <div class="caption">
-    An example of the types of obstacles used
+    An example of the types of obstacles used: The PID controller helped ensure the robot moved in a straight line.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -33,7 +33,7 @@ This was one of my final robotics projects during a graduate level course. Our t
     </div>
 </div>
 <div class="caption">
-    Class getting their robots ready to attempt the course
+    Class getting their robots ready to attempt the course.
 </div>
 
 
