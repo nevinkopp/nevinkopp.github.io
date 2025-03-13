@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Path Planning
+title: Autonomous Navigation
 description: A* path planning with PID control and polynomial time scaling
 img: assets/img/44.jpg
 importance: 4
