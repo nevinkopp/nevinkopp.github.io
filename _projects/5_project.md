@@ -15,7 +15,7 @@ This was one of my final robotics projects during a graduate level course. Our t
     </div>
 </div>
 <div class="caption">
-    Mobile robot platform used to complete the navigation task
+    Mobile robot platform used to complete the navigation task.
 </div>
 
 <div class="row justify-content-sm-center">
