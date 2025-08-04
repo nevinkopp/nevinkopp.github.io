@@ -16,6 +16,8 @@ category: fun
     The completed mini tank... I beg your pardon, but what do you mean naked? 
 </div>
 
+For access to the open source code and 3D renders, please refer to my github page: https://github.com/nevinkopp/automated-mini-tank
+
 This was my final project for my Robotics Fabrication course at UCR. It was completed in a team of three, and I was mainly responsible for the turret system. The objective of this project was to fabricate a fully working robotic system from the ground up. We only had a few weeks to do it, which is why it looks so... prototypy? But it does complete its objective! The objective was to find red solo cups and shoot them with a foam ball. The choice of red cup was purely happenstance and could've been anything, but we wanted something cheap and easy to hit. 
 
 The mini tank is assembled out of two main parts, the base and the turret. The base (as shown below) is responsible for moving the robot around. The frame itself was completely rendered in SolidWorks and laser cut in the UCR machine shop. We decided to go with tank treads since that was what came with the motor kit and, since it was a self-funded project, we couldn't spare much more expense.
