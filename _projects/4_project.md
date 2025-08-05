@@ -53,7 +53,11 @@ From there, a linear actuator pulls back a 3D-printed plunger, which loads a bal
     Firing mechanism
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zwfM17PHtx8" frameborder="0" allowfullscreen></iframe>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/zwfM17PHtx8" 
+    frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 
 In conclusion, BB Bandit was a very fun project, and we learned a lot. The main challenge was power distribution. In the end, we decided it would be better to use a power bus with two rails: one rail was set to 5 V and the other to 12 V. This allowed the flywheels to spin up to full power while also providing a safe power source for the more sensitive electronics.
