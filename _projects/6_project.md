@@ -3,8 +3,8 @@ layout: page
 title: Analytical project
 description: Design and analysis of a robotic arm from the ground up
 img: assets/img/38.jpg
-importance: 3
-category: fun
+importance: 6
+category: university
 ---
 
 [<i class="fa-solid fa-file-pdf fa-3x"></i>](https://nevinkopp.github.io/assets/pdf/EE%20283A%20Analytical%20Project%20Report.pdf)

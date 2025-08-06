@@ -4,7 +4,7 @@ title: Underwater object tracking (UOT)
 description: Graduate research project
 img: assets/img/7.jpg
 importance: 2
-category: work
+category: university
 related_publications: false
 ---
 

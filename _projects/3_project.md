@@ -4,8 +4,8 @@ title: Bread Recipe Autonomous Device (BRAD)
 description: Automated bread maker 
 img: assets/img/18.jpg
 #redirect: https://unsplash.com
-importance: 1
-category: fun
+importance: 3
+category: university
 ---
 
 <div class="row justify-content-sm-center">

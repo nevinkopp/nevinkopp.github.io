@@ -3,8 +3,8 @@ layout: page
 title: BB Bandit
 description: Open source mini tank 
 img: assets/img/31.jpg
-importance: 2
-category: fun
+importance: 4
+category: university
 ---
 
 <div class="row justify-content-sm-center">
