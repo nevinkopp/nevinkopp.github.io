@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects listed under "work" were completed as an interdisciplinary team under direct supervision from a project lead. Work projects include meetings, briefings, setting goals, completing assignments and the like. Projects listed under "fun" were either completed as part of a course at the university, or just in my own free time. 
+description: Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects are ordered from newest (at the top left) to oldest (bottom right). Not all completed projects will be featured here, only ones I feel I learned a lot from. 
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [fun, university]
 horizontal: false
 ---
 

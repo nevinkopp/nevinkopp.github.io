@@ -3,7 +3,7 @@ layout: page
 title: Leviathan
 description: Autonomous underwater vehicle (AUV)
 img: assets/img/12.jpeg
-importance: 2
+importance: 3
 category: university
 related_publications: false
 ---

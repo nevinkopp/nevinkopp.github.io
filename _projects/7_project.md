@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: BB Bandit II
+description: An improved version of BB Bandit I (WIP)
 img: assets/img/4.jpg
-importance: 7
+importance: 1
 category: university
 related_publications: true
 ---
