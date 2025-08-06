@@ -401,9 +401,9 @@ ninja.data = [{
           description: "Automated bread maker",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-bb-bandit-autonomous-mini-tank",
-          title: 'BB Bandit Autonomous Mini Tank',
-          description: "Seek and mildly annoy",
+            },},{id: "projects-bb-bandit",
+          title: 'BB Bandit',
+          description: "Open source mini tank",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-autonomous-navigation",
