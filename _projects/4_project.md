@@ -1,7 +1,7 @@
 ---
 layout: page
-title: BB Bandit Autonomous Mini Tank
-description: Seek and mildly annoy 
+title: BB Bandit
+description: Open source mini tank 
 img: assets/img/31.jpg
 importance: 2
 category: fun
