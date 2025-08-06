@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects are ordered from newest (at the top left) to oldest (bottom right). Not all completed projects will be featured here, only ones I feel I learned a lot from. 
+description: Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects are ordered from newest (at the top left) to oldest (bottom right). Not all completed projects will be featured here, only ones I feel I learned the most from. 
 nav: true
 nav_order: 1
 display_categories: [fun, university]
