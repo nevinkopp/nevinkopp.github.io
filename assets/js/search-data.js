@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects listed under &quot;work&quot; were completed as an interdisciplinary team under direct supervision from a project lead. Work projects include meetings, briefings, setting goals, completing assignments and the like. Projects listed under &quot;fun&quot; were either completed as part of a course at the university, or just in my own free time.",
+          description: "Here are my current and past projects. Each one has had its own set of unique challenges that I learned a lot from. Projects are ordered from newest (at the top left) to oldest (bottom right). Not all completed projects will be featured here, only ones I feel I learned a lot from.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
