@@ -428,6 +428,16 @@ ninja.data = [{
           description: "An improved version of BB Bandit I (WIP)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
+            },},{id: "services-tutoring",
+          title: 'Tutoring',
+          description: "",
+          section: "Services",handler: () => {
+              window.location.href = "/services/1_service/";
+            },},{id: "services-leviathan",
+          title: 'Leviathan',
+          description: "Autonomous underwater vehicle (AUV)",
+          section: "Services",handler: () => {
+              window.location.href = "/services/2_service/";
             },},{
         id: 'social-email',
         title: 'email',
