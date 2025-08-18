@@ -433,9 +433,9 @@ ninja.data = [{
           description: "",
           section: "Services",handler: () => {
               window.location.href = "/services/1_service/";
-            },},{id: "services-leviathan",
-          title: 'Leviathan',
-          description: "Autonomous underwater vehicle (AUV)",
+            },},{id: "services-consultations",
+          title: 'Consultations',
+          description: "",
           section: "Services",handler: () => {
               window.location.href = "/services/2_service/";
             },},{
