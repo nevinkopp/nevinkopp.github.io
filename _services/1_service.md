@@ -2,7 +2,7 @@
 layout: page
 title: Tutoring
 #description: 
-img: assets/img/12.jpeg
+img: assets/img/47.png
 importance: 1
 #category: university
 #related_publications: false
