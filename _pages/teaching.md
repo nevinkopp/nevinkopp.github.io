@@ -2,11 +2,30 @@
 layout: page
 permalink: /teaching/
 title: services
-description: Hello World!
+description: Here are my currently offered services. If you are a current client, please refer to the link sent to your email. Thank you!
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+{% assign sorted_services = site.services | sort: "importance" %}
 
-Organize your courses by years, topics, or universities, however you like!
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_services %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_services %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
