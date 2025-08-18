@@ -150,6 +150,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  services:
+    output: true
+    permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
