@@ -45,3 +45,19 @@ Undergraduate level
 All of my sessions are conducted online, with a minimum commitment of one hour. Each session begins with a block of time dedicated to identifying the problem. If I am unable to help you, the session will be concluded and your payment will be fully refunded. If I can provide useful assistance, payment for the hour is required in advance.
 
 If you are interested, please [email](mailto:nkopp002@ucr.edu) me to schedule a session. Thank you!
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/49.jpg" title="robowriteup" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/50.jpg" title="inversekin" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/51.jpg" title="testresults" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    I love robots!
+</div>
+
