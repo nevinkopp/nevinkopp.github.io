@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: services
 description: Here are my current services. If you are a client, please refer to the link sent to your email. Thank you!
-nav: true
+nav: false
 nav_order: 6
 ---
 
