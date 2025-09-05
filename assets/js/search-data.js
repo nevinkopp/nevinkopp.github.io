@@ -416,11 +416,6 @@ ninja.data = [{
           description: "Design and analysis of a robotic arm from the ground up",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-bb-bandit-ii",
-          title: 'BB Bandit II',
-          description: "An improved version of BB Bandit I (WIP)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "services-tutoring",
           title: 'Tutoring',
           description: "",
