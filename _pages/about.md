@@ -27,6 +27,4 @@ latest_posts:
 
 Hello!
 
-I'm Spongebob, a recent graduate of the University of California, Riverside. While at the university, I worked a lot with autonomous underwater vehicles (AUVs) both with graduate level research projects and full scale AUV development. Working with AUVs gave me the chance to gain machine vision, sensor integration, and autonomous navigation systems experience.
-
-Outside of my technical work, I enjoy playing the guitar as a creative outlet. My passion for technology, commitment to learning, and hands-on experience make me a versatile and driven individual ready to excel in robotics, automation, and beyond. Thanks for reading!
+My name is Nevin Kopp and I am an embedded software engineer at science applications international corporation (SAIC). I went to University of California, Riverside where I got my B.S. in electrical engineering and my M.S. in robotics. During my time at the university, I worked a lot with underwater robotics. As part of the robosub team, I helped both the hardware and software teams develop and test Leviathan, our entry into the competition. I also did a research project implementation to help improve underwater object tracking under the guidance of professor Amit K Roy-Chowdhury. I'm currently open to roles involved with robotics and embedded systems especially in the maritime domain. My experience at SAIC with writing mission critical software and my extensive academic background sets me up to do very well as a robotics engineer. Please refer to my resume section for my tech stack, thanks for reading! 
